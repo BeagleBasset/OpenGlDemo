@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OpenGlDemo</class>
+ <widget class="QMainWindow" name="OpenGlDemo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1046</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Vörös csatorna:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="RedChannel">
+          <property name="maximum">
+           <number>255</number>
+          </property>
+          <property name="value">
+           <number>255</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Zöld csatorna:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="GreenChanel">
+          <property name="maximum">
+           <number>255</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Kék csatorna:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="BlueChannel">
+          <property name="maximum">
+           <number>255</number>
+          </property>
+          <property name="singleStep">
+           <number>1</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Áttetszősség:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="AlphaChannel">
+          <property name="maximum">
+           <number>255</number>
+          </property>
+          <property name="value">
+           <number>255</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignVCenter">
+         <widget class="GlWidget" name="widget" native="true">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>GlWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">glwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

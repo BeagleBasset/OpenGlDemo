@@ -1,0 +1,11 @@
+# ninja log v6
+6	641	7638411951080113	build.ninja	e87c1fe075bd03ed
+705	2538	7638411495677786	CMakeFiles/OpenGlDemo.dir/OpenGlDemo_autogen/mocs_compilation.cpp.obj	b7d19feb58c55587
+18	701	7638411495042594	OpenGlDemo_autogen/timestamp	85bdfedbc07173d2
+18	701	7638411495042594	OpenGlDemo_autogen/mocs_compilation.cpp	85bdfedbc07173d2
+18	701	7638411495042594	E:/Github/qt/OpenGlDemo/build/Desktop_Qt_6_8_2_MinGW_64_bit-Release/OpenGlDemo_autogen/timestamp	85bdfedbc07173d2
+18	701	7638411495042594	E:/Github/qt/OpenGlDemo/build/Desktop_Qt_6_8_2_MinGW_64_bit-Release/OpenGlDemo_autogen/mocs_compilation.cpp	85bdfedbc07173d2
+708	2514	7638411495697775	CMakeFiles/OpenGlDemo.dir/main.cpp.obj	bf7f6385f1a5f624
+713	2646	7638411495747786	CMakeFiles/OpenGlDemo.dir/glwidget.cpp.obj	635f6e623f0c71ef
+710	2650	7638411495727784	CMakeFiles/OpenGlDemo.dir/mainwindow.cpp.obj	42152712d60b9ee8
+2651	2830	7638411515132262	OpenGlDemo.exe	e830a11e5724eaad

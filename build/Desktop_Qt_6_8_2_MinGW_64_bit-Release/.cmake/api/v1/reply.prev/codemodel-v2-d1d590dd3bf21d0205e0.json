@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4ef74141d8bf2eef96e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OpenGlDemo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGlDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGlDemo-Release-64d6d183cd50ad43bb06.json",
+					"name" : "OpenGlDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGlDemo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGlDemo_autogen-Release-03c8b2838f9ea13f751a.json",
+					"name" : "OpenGlDemo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGlDemo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGlDemo_autogen_timestamp_deps-Release-9aa4982cb828e790214b.json",
+					"name" : "OpenGlDemo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Github/qt/OpenGlDemo/build/Desktop_Qt_6_8_2_MinGW_64_bit-Release",
+		"source" : "E:/Github/qt/OpenGlDemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
